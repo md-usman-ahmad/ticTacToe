@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg, rgba(8,8,10,1) 1%, rgba(133,132,5,1) 100%);
+    /* box-sizing: border-box; */
+}
+.cell{
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 6px;
+    font-size: 40px;
+    font-family:cursive;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.cell:hover{
+    background-color: grey;
+    transform: scale(1.0); /* Scales outwards on hover */
+}
+/* .cell:disabled{
+    cursor: not-allowed;
+    pointer-events: all;
+} */
+.parentcell{
+    width: 248px;
+    height: auto;
+    margin-left: 15px;
+}
+.turn, #restartbtn{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+h3{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}

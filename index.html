@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TicTacToe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./index.css" />
+    <!-- <link rel="stylesheet" href="./task.css" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+</style>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center  " style="height: 100vh;">
+            <div class="col-sm-3 ">
+                <div>
+                    <h3 class="my-4 text-center ">Tic-Tac-Toe</h3>
+                </div>
+                <div class="parentcell ">
+                    <div class="row pb-1">
+                        <div class="col-sm-3 cell me-1"  id="a"></div>
+                        <div class="col-sm-3 cell me-1" id="b"></div>
+                        <div class="col-sm-3 cell" id="c"></div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col-sm-3 cell me-1" id="d"></div>
+                        <div class="col-sm-3 cell me-1" id="e"></div>
+                        <div class="col-sm-3 cell" id="f"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 cell me-1" id="g"></div>
+                        <div class="col-sm-3 cell me-1" id="h"></div>
+                        <div class="col-sm-3 cell" id="i"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline-info mt-4" id="restartbtn">Restart</button>
+                    <!-- <div>
+                        <button type="button" class="btn btn-secondary my-2"  id="x">X</button>
+                        <button type="button" class="btn btn-danger my-2"  id="o">O</button>
+                    </div> -->
+                    <p class="text-center text-white turn">Its X's Turn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

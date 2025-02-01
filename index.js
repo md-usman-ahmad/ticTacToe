@@ -1,3 +1,4 @@
+// New line
 let check = 0;
 let click = 0;
 let go = 0;
@@ -91,7 +92,7 @@ $(".cell").on('click',function(event){
             $("#a,#e,#i").css("color", "White");
             gameOver(event.currentTarget.id);
         }
-        
+
         if(check == 9){
             $(".turn").html("Draw");
             setTimeout(function(){
